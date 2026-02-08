@@ -1,6 +1,10 @@
 <?php
 // index.php
+
+require_once 'config/config.php';
+
 $page_title = "Welcome to French Learning";
+// echo "SITE_URL is: " . SITE_URL . "<br>";
 require_once 'includes/header.php';
 require_once 'includes/navbar.php';
 ?>
